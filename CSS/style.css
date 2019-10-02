@@ -6,14 +6,58 @@ header{
     background-color: blueviolet;
     height: 500px;
 }
-nav{
-    background-color: white;
-    height: 55px;
-    width: 50%;
-    margin: auto;
+#navi{
+    display: block;
 }
-nav ul{
-    display:inline-block;
-    border: 2px solid black;
+nav{
+    display: block;
+    height: 35px;
+    position: absolute;
+    left: 35%;
+    top:15%;
+    
+}
+ul{
+    display: flex;
+    background-image:linear-gradient(rgb(44,42,42), rgb(117,112,112))
+}
+ul:hover{
+    background-image: linear-gradient()
+}
 
+li{
+    display: inline;
+    flex-direction: row;
+    padding: 12px;
+}
+li:hover{
+    background-color: blue;
+    
+}
+
+li>a{
+    text-decoration: none;
+    color: white;
+}
+.header-links{
+    
+}
+section{
+    display: flex;
+}
+.box{
+    width: 25%;
+    height: 250px;
+}
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: skyblue;
+}
+.box3{
+    background-color: indigo;
+}
+.box4{
+    background-color: azure;
 }
