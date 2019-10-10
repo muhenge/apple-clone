@@ -34,7 +34,7 @@ input {
   width: 70%;
   background: #5e5e5e;
 }
-
+/* csslint ignore:start */
 ul {
   display: flex;
   border: 1px solid #5e5e5e;
@@ -43,7 +43,7 @@ ul {
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 5%,rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45) 100%), -moz-linear-gradient(left, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 0.2%, rgba(0,0,0,0)99.8%, rgba(0, 0, 0, 0.2) 100%), -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
   background: -webkit-gradient(linear,0 0,0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
 }
-
+/* csslint ignore:end */
 ul:hover {
   background-image: linear-gradient();
 }
@@ -55,11 +55,11 @@ li {
   padding: 4px 0 0 35px;
   width: 100%;
 }
-
+/* csslint ignore:start */
 li:hover {
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45) 100%), -moz-linear-gradient(left, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 0.2%, rgba(0,0,0,0)99.8%, rgba(0, 0, 0, 0.2) 100%), -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
 }
-
+/* csslint ignore:end */
 li > a {
   text-decoration: none;
   color: white;
