@@ -1,3 +1,3 @@
 linters:
-  stylelint "CSS/*.css" --fix:
+  stylelint:
     config: 'stylelint.config.js'
