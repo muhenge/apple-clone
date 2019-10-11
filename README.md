@@ -1,2 +1,5 @@
-# apple-clone
-This project is an apple website clone from Microverse assignments
+# Project : Building with Backgrounds and Gradients [Apple Clone](https://web.archive.org/web/20140301004610/http://www.apple.com/)
+This is an apple archive web design clone project, I used HTML and CSS, is the main curriculum at [Microverse](https://www.microverse.org/) 
+- The assignment is [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients)
+- The live review of the project is [here](https://muhenge.github.io/apple-clone/)
+- [My github account](https://github.com/muhenge)
