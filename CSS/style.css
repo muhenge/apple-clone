@@ -68,7 +68,8 @@ li > a {
 
 .search {
   width: 150%;
-  padding: 5px;
+  position: relative;
+  right: 35px;
 }
 
 .search-icon > i {
@@ -87,7 +88,7 @@ input {
   width: 65%;
   position: relative;
   top: 155px;
-  margin-left: 25%;
+  margin:45px 0 0 24%;
   text-align: center;
 }
 
